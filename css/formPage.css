@@ -1,0 +1,391 @@
+#root{
+  width: 100%;
+  min-width: 1150px;
+  margin: 0 auto;
+  padding: 20px 20px;
+}
+
+/*所有的开发页面，均使用统一的命名空间ccje！*/
+.ill {
+
+}
+.ill .ant-layout-sider{
+  background-color: #fff;
+  padding: 0;
+}
+.ill .ant-layout{
+  background-color: #fff;
+  padding: 0;
+  overflow: hidden;
+}
+.ill .txtRight {
+  text-align: right;
+}
+.ill .txtCenter {
+  text-align: center;
+}
+.ill .op-link+.op-link {
+  margin-left: 5px;
+}
+.ill .button-box { /*表格右上方的操作区域，即：包含操作按钮的区域*/
+  text-align: right;
+  margin-bottom: 8px;
+}
+.ill .op-button {
+
+}
+.ill .tableWrapper {
+  margin: 15px 0 0;
+}
+.ill .hide {
+  display: none;
+}
+.ill .op-button+.op-button {
+  margin-left: 10px;
+}
+.ill .ant-advanced-search-form {
+  padding: 8px;
+  background: #fbfbfb;
+  border: 1px solid #d9d9d9;
+  border-radius: 6px;
+}
+.ill .events+.events {
+	padding-left: 5px;
+}
+.ill .searchform-button {
+  width: 90px;
+  height: 30px;
+  /*margin-right: 44px;*/
+}
+.ill .eventsButton+.eventsButton {
+  margin-right: 10px;
+}
+.ill .modal-no-boder .ant-row.ant-row.ant-form-item {
+  margin-bottom: 0;
+}
+.ill .modal .ant-row.ant-form-item {
+  margin-bottom: 0;
+  background-color: white;
+  border-bottom: 1px solid #ccc;
+}
+.ill .modal .ant-row .ant-col-18 .ant-form-item-control{
+  height: 33px; 
+  overflow: hidden
+}
+.ill .modal,.modal-no-bod  er{
+  overflow: hidden;
+}
+.ill .modal .ant-col-12 {
+  border-right: 1px solid #ccc;
+  padding-bottom: 10000px;
+  margin-bottom: -10000px;
+}
+
+.ill .modal>.ant-row:nth-child(1) {
+  border-top: 1px solid #ccc;
+}
+.ill .modal .ant-col-24{
+  border-right: 1px solid #ccc;
+}
+.ill .ant-modal-content .ant-modal-header,
+.ill .ant-modal-content .ant-modal-footer {
+  border-bottom: none;
+  border-top: none;
+}
+.ill .ant-form-item-control span{
+  word-break: break-all;
+}
+.ill .ant-col-21{
+  background-color: #fff;
+}
+
+.ill .ant-form.modal{
+  border-left: 1px solid #ccc;
+}
+.ill .ant-modal-content .ant-form-item-label {
+  font-weight: 600;
+}
+.ill .modal-button-box {
+  width: 150px;
+  margin: 0 auto;
+}
+.ill .ant-advanced-search-form .ant-form-item {
+    margin-bottom: 8px;
+}
+.ill .modal .ant-col-12-none {
+  border: 0 none;
+}
+.ill .ant-modal-footer {
+  text-align: center;
+}
+.ill .ant-modal-body {
+  padding: 0 25px;
+}
+.ill .ant-modal-content {
+  padding: 20px 0;
+}
+.ill .detail-modal-noline .ant-form-item {
+  margin-bottom: 12px;
+}
+.ill .ant-table .ant-table-thead > tr > th {
+  padding: 10px 8px;
+  text-align: center;
+  background: #f7f7f7;
+}
+.ill .ant-form-item{
+  margin-bottom: 19px;
+}
+.ill .ant-form-item.ant-form-item-with-help{
+  margin-bottom: 2px;
+}
+.ill .ant-modal-wrap .ant-modal .ant-modal-body .ant-table-thead th{
+  background: #f7f7f7;
+}
+.ill .tableWrapper .ant-form-item.ant-row{
+  margin-bottom: 0;
+}
+.ill .tableWrapper .ant-row .button-box{
+  margin-bottom: 0;
+}
+.ill .ant-tree-node-content-wrapper {
+    white-space: pre-wrap;
+    overflow: hidden;
+    width:80%
+}
+/*.ill .ant-confirm .ant-confirm-btns {
+  float: none;
+  text-align: center;
+}*/
+
+/**
+ * 备用的表格样式
+ */
+.ill .detail-table {
+	width: 100%;
+	color: #666;
+	text-align: center;
+	border-collapse: collapse;
+	line-height: 26px;
+}
+.ill .detail-table th {
+	background-color: #E7EAF5;
+	font-weight: bold;
+}
+.ill .detail-table th, .ill .detail-table td {
+	border: 1px solid #D9D9D9;
+	text-align: center !important;
+}
+
+.ill .button-box .events-button+.events-button{
+  margin-left: 10px;
+}
+.ill .hide{
+  display: hidden;
+}
+.ill .ant-advanced-search-form .ant-select{
+  margin-top: 2px;
+}
+.ill .ant-modal-content{
+  padding: 10px 0;
+}
+.ill .ant-table-body .ant-form-item{
+  margin-bottom: 0;
+}
+.ill .ant-pagination-options-size-changer.ant-select{
+  width: 90px;
+}
+.ill .ant-table .num{
+  text-align: center;
+}
+@media screen and (max-width: 1650px) {
+    #root{
+      padding: 20px;
+    }
+}
+.ill .events p+p{
+  margin-top: 10px;
+}
+.ill .ant-tree-node-content-wrapper {
+    white-space: pre-wrap;
+    overflow: hidden;
+    width:80%
+}
+.ill .blackLabel{
+  color: #000;
+}
+.ill .core-sign {
+  color: #f00;
+}
+.ill .extend-sign {
+  color: #080dff;
+}
+.ill tr.ant-table-row td.rank{
+  padding: 0;
+  position: relative;
+}
+.ill td.rank div{
+  min-height: 38px;
+  padding: 10px 8px;
+  transition: all .3s;
+  align-items: center;
+  justify-content:center;
+  display: -webkit-flex;
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  height: 100%;
+}
+.ill td.rank div.thirty{
+  background-color: rgba(255,204,255,0.4);
+}
+.ill td.rank div.half{
+  background-color: rgba(255,204,153,0.4);
+}
+.ant-table-tbody > tr:hover > td.rank{
+  background-color: rgb(255,255,255);
+}
+.ant-table-tbody > tr:hover > td.rank > div.noRank{
+  background-color: rgb(236, 246, 253);
+}
+.ant-table-tbody > tr:hover > td.rank > div.thirty{
+  background-color: rgba(255,204,255,0.4);
+}
+.ant-table-tbody > tr:hover > td.rank > div.half{
+  background-color: rgba(255,204,153,0.4);
+}
+.ill .badge-num {
+  position: absolute;
+  right: -15px;
+  top: -5px;
+}
+.ill .ant-btn:focus > .badge-num, .ill .ant-btn:active > .badge-num{
+  position: absolute;
+}
+.ill .editor-ration-events + .editor-ration-events{
+  margin-left: 20px;
+}
+
+.ill .ant-spin-nested-loading > div > .ant-spin {
+  max-height: 100%;
+  z-index: 1001;
+}
+.ill .ant-spin-nested-loading > div > .ant-spin .ant-spin-dot {
+  position: fixed;
+}
+.ill .ant-table-wrapper .ant-spin-nested-loading > div > .ant-spin {
+  max-height: 340px;
+  z-index: 1;
+}
+.ill .ant-table-wrapper .ant-spin-nested-loading > div > .ant-spin .ant-spin-dot {
+  position: absolute;
+}
+.ill .keyVal {
+  padding-left: 10px;
+  display: inline-block;
+}
+.ill .keyVal-label {
+  color: #3A703A;
+}
+.ill .keyVal-val {
+  color: #2c5297;
+}
+.ill .EvaluateDataDetail td {
+  vertical-align: top;
+}
+.ill .evaluate-note {
+  color: #3A703A;
+}
+.ill .ant-form .evaluate-note {
+  line-height: 16px;
+}
+.ill .AllIndexData td {
+  vertical-align: top;
+}
+.ill .red-star {
+  color: #f00;
+}
+.ill .own-one-num {
+  position: absolute;
+  left: 80px;
+  top: -10px;
+}
+.ill .own-two-num {
+  position: absolute;
+  left: 180px;
+  top: -10px;
+}
+.ill .own-three-num {
+  position: absolute;
+  left: 284px;
+  top: -10px;
+}
+.ill .ant-modal-body .ant-tabs {
+  overflow: visible;
+}
+.ill .folow {
+  position: absolute;
+  right: 0;
+}
+.ill .search-button-box {
+  padding-left: 20px;
+}
+.ill a.a-disabled {
+  color: #ccc;
+  cursor: default;
+}
+.ill .blueIcon{
+   background: #0094ff;
+   width: 15px;
+   height: 15px;
+   border-radius: 50%;
+   display: inline-block;
+   margin: 0 5px 0 0;
+   vertical-align: -0.125em
+}
+.ill .red{
+  color:red
+}
+.ill .ant-modal-content .ant-modal-header .ant-modal-title{
+  text-align: center;
+  font-weight: 600;
+  font-size: 16px;
+  padding: 0 0 10px;
+}
+.ill .is-validating.has-feedback:after{
+  display:none !important;
+}.title{
+    background-color: #f3f3f3;
+    padding: 10px !important;
+    font-weight: bold;
+    margin-bottom: 10px
+}
+
+.requiredICON{text-align: left}
+.requiredICON .ant-form-item-control-wrapper:after {
+    display: inline-block !important;
+    margin-right: 4px !important;
+    content: "*"  !important;
+    font-family: SimSun  !important;
+    line-height: 1  !important;
+    font-size: 12px;
+    color: #f04134;
+    padding-left: 10px;
+    position: absolute;
+    right: -20px;
+    top: 36%;
+}
+.requiredICON .ant-form-item-required:before {
+    content: "" !important;
+}
+
+
+
+.maxCost .ant-form-item-control-wrapper:after {
+    top: 10px; right: -30px;
+}
+.ant-input-number,.ant-select,.ant-input{
+    width: 70% !important;
+}
+/*# sourceMappingURL=formPage.css.map*/
